@@ -48,16 +48,13 @@
         background-color: #eff5ff;
       }
 
-      /* UserData */
-      .user-data__title {
-        display: inline-block;
-        margin: 10px 5px;
-        min-width: 120px;
-      }
-
-      .start-button {
-        margin-top: 20px;
+      /* App */
+      .app__quizzes-title {
+        margin: 40px;
         text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+        color: #445358;
       }
 
       .stop-quizzes {
@@ -72,6 +69,30 @@
       .stop-quizzes__input, .stop-quizzes__button {
         font-size: 14px;
         margin: 0 5px;
+      }
+
+      .scheme {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 20px 0;
+      }
+
+      .scheme > img {
+        margin: 20px 0;
+        width: 100%;
+      }
+
+      /* UserData */
+      .user-data__title {
+        display: inline-block;
+        margin: 10px 5px;
+        min-width: 120px;
+      }
+
+      .start-button {
+        margin-top: 20px;
+        text-align: center;
       }
 
       /* Quizzes */
@@ -185,10 +206,29 @@
         color: red;
       }
 
+      .common-result {
+        margin: 30px;
+      }
+
+      .common-result > div {
+        font-size: 28px;
+      }
+
+      .common-result > div:last-child {
+        margin: 10px 0;
+        font-size: 30px;
+        font-weight: bold;
+      }
+
+      .common-result > div > b {
+        font-size: 30px;
+        color: #0029ff;
+      }
+
 
 
     </style>
-  </head>
+  <link rel="shortcut icon" href="favicon.png"></head>
 
   <body>
     <div id="root"></div>
